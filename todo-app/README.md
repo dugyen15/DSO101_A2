@@ -59,24 +59,3 @@ React (frontend) and Node.js/Express (backend).
 4. **Wrong Remote URL** - Git was pushing to Assignment 1 repo instead 
    of Assignment 2. Fixed by updating the remote URL using 
    `git remote set-url`.
-
-
-
-## Screenshots of the test
-
-
-## Successful Pipeline Execution
-![alt text](<Screenshot 2026-05-23 010427.png>)
-
-## Console Output
-![alt text](<Screenshot 2026-05-23 010528.png>)
-
-## Test Results
-![alt text](<Screenshot 2026-05-23 010647.png>)
-
-## Github Repository with Jenkinsfile
-https://github.com/dugyen15/DSO101_A2 
-![alt text](<Screenshot 2026-05-23 010713.png>)
-
-## Github Repository with Test File
-![alt text](<Screenshot 2026-05-23 010739.png>)
