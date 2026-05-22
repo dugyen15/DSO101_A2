@@ -12,28 +12,28 @@ pipeline {
         stage('Install Backend') {
             steps {
                 dir('todo-app/backend') {
-                    sh 'npm install'
+                    bat 'npm install'
                 }
             }
         }
         stage('Install Frontend') {
             steps {
                 dir('todo-app/frontend') {
-                    sh 'npm install'
+                    bat 'npm install'
                 }
             }
         }
         stage('Build Frontend') {
             steps {
                 dir('todo-app/frontend') {
-                    sh 'npm run build'
+                    bat 'npm run build'
                 }
             }
         }
         stage('Test Backend') {
             steps {
                 dir('todo-app/backend') {
-                    sh 'npm test'
+                    bat 'npm test'
                 }
             }
             post {
